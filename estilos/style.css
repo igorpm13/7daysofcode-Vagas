@@ -10,11 +10,19 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    white-space: nowrap;
+    
 }
 
 h3 {
     color: var(--cor-secundaria)
+}
+
+h1 {
+    margin: 1em 0;
+}
+
+p {
+    color: var(--cor-fonte);
 }
 
 .container {
@@ -34,7 +42,7 @@ h3 {
     color: var(--cor-fonte);
     margin: 0 27% 0 0;
     min-width: 25%;
-
+    white-space: nowrap;
 }
 
 .loginbar {
@@ -42,7 +50,12 @@ h3 {
     min-width: max-content;
 }
 
-
+.secaoUm {
+    display: flexbox;
+    text-align: center;   
+    padding: 7% 25%;
+    
+}
 
 
 .homebar__link {
