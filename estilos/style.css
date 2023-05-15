@@ -1,116 +1,47 @@
 :root {
-    --cor-botao-signin: #8E2424;
-    --cor-fonte-navbar: grey;
+    --cor-secundaria: #8E2424;
+    --cor-fonte: #667085;
     --cor-fonte-botao-cadastrar: white;
+    
 }
 
 *{
     margin: 0%;
     text-decoration: none;
-}
-@media (max-width:2560px) {
-    .container {
-        display: flex;
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
-        margin: 1em;
-    }
-
-    .logo{
-        padding: 1em;
-        margin: 0 2em 0 5em;
-    }
-
-    .homebar{
-        color: var(--cor-fonte-navbar);
-        margin: 0 46em 0 2em;
-        gap: 5em;
-    }
-
-    .loginbar {
-        margin: 0 5em;
-    }
-}
-@media(max-width: 1900px) {
-    .container {
-        display: flex;
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
-        margin: 1em;
-    }
-
-    .logo{
-        padding: 1em;
-        margin: 0 2em 0 5em;
-    }
-
-    .homebar{
-        color: var(--cor-fonte-navbar);
-        margin: 0 46em 0 2em;
-        gap: 5em;
-    }
-
-    .loginbar {
-        margin: 0 5em;
-    }
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
 }
 
-@media (max-width:1600px) {
-    .container {
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        align-items: center;
-        margin: 1%;  
-    }
-    
-    .logo{
-        padding: 1%;
-        margin: 0 2%m 0 5%;
-    }
-
-    .homebar{
-        color: var(--cor-fonte-navbar);
-        margin: 0 27% 0 0;
-        min-width: max-content;
-    
-    }
-
-    .loginbar {
-        margin: 0 5%;
-        min-width: max-content;
-    }
+h3 {
+    color: var(--cor-secundaria)
 }
 
-@media (max-width:1201px) {
-    .container {
-        display: flex;
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
-        margin: 1%;  
-    }
-
-    .logo{
-        padding: 1%;
-        margin: 0 2%;
-    }
-   
-    .homebar{
-        color: var(--cor-fonte-navbar);
-        margin: 0 24% 0 0;
-        
-    }
-    .loginbar {
-        margin: 0 1%;
-    }
-    
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 1%;  
 }
 
-.cabecalho {
+.logo{
+    padding: 1% 0%;
+    margin: 0 2% 0 5%;
 }
+
+.homebar{
+    color: var(--cor-fonte);
+    margin: 0 27% 0 0;
+    min-width: 25%;
+
+}
+
+.loginbar {
+    margin: 0 5%;
+    min-width: max-content;
+}
+
 
 
 
@@ -121,16 +52,22 @@
 
 
 
-.loginbar__botaoLogin{
-    color: var(--cor-fonte-navbar);
-    margin: 1em;
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--cor-fonte);
+    font-size: 0.9rem;
 }
 
-.loginbar__botaoSignin {
+button#signUp {
     color: var(--cor-fonte-botao-cadastrar);
     padding: 0.5em 1em;
     border-radius: 8px;
-    border: 2px solid var(--cor-botao-signin);
-    background-color: var(--cor-botao-signin);
+    border: 2px solid var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
     
 }
