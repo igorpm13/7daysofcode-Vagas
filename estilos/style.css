@@ -13,18 +13,6 @@
     
 }
 
-h3 {
-    color: var(--cor-secundaria)
-}
-
-h1 {
-    margin: 1em 0;
-}
-
-p {
-    color: var(--cor-fonte);
-}
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -50,12 +38,6 @@ p {
     min-width: max-content;
 }
 
-.secaoUm {
-    display: flexbox;
-    text-align: center;   
-    padding: 7% 25%;
-    
-}
 
 
 .homebar__link {
@@ -83,4 +65,55 @@ button#signUp {
     border: 2px solid var(--cor-secundaria);
     background-color: var(--cor-secundaria);
     
+}
+
+
+.secaoUm {
+    display: flexbox;
+    text-align: center;   
+    padding: 7% 25%;
+    
+}
+
+.subtitulo__secaoUm {
+    color: var(--cor-secundaria)
+}
+
+.titulo__secaoUm {
+    margin: 1em 0;
+}
+
+.texto__secaoUm {
+    color: var(--cor-fonte);
+}
+
+
+.secaoDois {
+    display: flex;
+    margin: 5%;
+}
+
+.metrica {
+    display: flexbox;
+    padding: 0% 0% 0 3%;
+}
+
+.titulo__metrica {
+    color: var(--cor-secundaria);
+    padding-bottom: 0.2em;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.subtitulo__metrica {
+    white-space: nowrap;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.texto__metrica {
+    color: var(--cor-fonte);
+    font-weight: 400;
+    font-size: 16px;
 }
