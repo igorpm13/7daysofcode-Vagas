@@ -117,3 +117,67 @@ button#signUp {
     font-weight: 400;
     font-size: 16px;
 }
+
+.secaoTres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.container__secaoTres {
+    max-width: 50vw;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.subtitulo__secaoTres {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0% 38% 2% 38%;
+    border: 2px transparent var(--cor-secundaria);
+    border-radius: 16px;
+    stroke: #8E2424;
+    mix-blend-mode: multiply;
+    background: rgba(142, 36, 36, 0.05);
+}
+
+.titulo__secaoTres {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1%;
+    white-space: nowrap;
+}
+
+.texto__secaoTres {
+    color: var(--cor-fonte);
+    padding:1% 0% 10% 0%;
+}
+
+.imagem__secaoTres {
+    width: 90vw;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.design {
+    display: flex;
+    justify-content: start;
+}
+
+.container__Product {
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 1.2em 15em 5em 1.2em;
+    font-size: 18px;
+    font-weight: 500;
+}
