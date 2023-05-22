@@ -9,7 +9,7 @@ Projeto do #7daysofCode
 | :rocket: URL         | https://projetovagas.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/igorpm13/portfolio/blob/master/Captura%20de%20tela%20de%202023-03-22%2010-08-57.png)#vitrinedev
+![](imagens/Site_vagas_img1.png)#vitrinedev
 
 ## Detalhes do projeto
 Projeto feito após os estudos da aula no curso Iniciante em programação.
