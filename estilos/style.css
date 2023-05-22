@@ -170,14 +170,14 @@ button#signUp {
 
 }
 
-.design {
+.vagas__baloes {
     display: flex;
     justify-content: start;
     flex-direction: column;
     gap: 2em;
 }
 
-.vagas__design {
+.vagas__baloes__titulo {
     padding-top: 3em;
 }
 
@@ -189,7 +189,7 @@ button#signUp {
     font-weight: 500;
 }
 
-.vagas__design__product__sub{
+.vagas__baloes__interno{
     display: flex;
     padding-top: 32px;
     gap: 20px;
@@ -198,18 +198,7 @@ button#signUp {
     color: var(--cor-fonte);
 }
 
-
-
-.vagas__design__UX__sub {
-    display: flex;
-    padding-top: 32px;
-    gap: 20px;
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--cor-fonte);
-}
-
-.texto__vagas {
+.vagas__baloes__texto {
     font-size: 16px;
     font-weight: 500;
 }
