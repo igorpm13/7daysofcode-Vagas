@@ -202,3 +202,101 @@ button#signUp {
     font-size: 16px;
     font-weight: 500;
 }
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 4% 4%;
+    padding: 4% 8%;
+    gap: 1.5em;
+    background: rgba(196, 25, 25, 0.03);
+}
+
+.feedback__container__textos {
+    width: 80vw;
+}
+
+.feedback__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    padding-bottom: 1em;
+}
+
+.feedback__texto {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+.feedback__container__pessoa {
+}
+
+.feedback__img {
+    width: 52px;
+    height: 52px;
+    border-radius: 200px;
+}
+
+.feedback__nome {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 0.6em;
+}
+
+.feedback__trabalho {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-fonte);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4% 8%;
+    background: #F9FAFB;
+}
+
+.rodape__container {
+    gap: 1em;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 0.7em;
+}
+
+.rodape__texto {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-fonte);
+    padding-bottom: 1.5em;
+}
+
+button#signUp__rodape{
+    color: var(--cor-fonte-botao-cadastrar);
+    padding: 1em 1em;
+    border-radius: 8px;
+    border: 2px solid var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
+  
+}
+
+input#rodapeEmail{
+    color: var(--cor-fonte);
+    height: 3em;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
+
+.rodape__marca{
+    padding-top: 2%;
+    color: var(--cor-fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
