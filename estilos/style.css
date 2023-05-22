@@ -2,7 +2,7 @@
     --cor-secundaria: #8E2424;
     --cor-fonte: #667085;
     --cor-fonte-botao-cadastrar: white;
-    
+    --cor-blocos-vagas: #EAECF0;    
 }
 
 *{
@@ -160,6 +160,7 @@ button#signUp {
 
 .imagem__secaoTres {
     width: 90vw;
+    padding-bottom: 3.5em;
 }
 
 .vagas {
@@ -172,12 +173,43 @@ button#signUp {
 .design {
     display: flex;
     justify-content: start;
+    flex-direction: column;
+    gap: 2em;
 }
 
-.container__Product {
-    border: 1px solid grey;
+.vagas__design {
+    padding-top: 3em;
+}
+
+.container__vagas {
+    border: 1px solid var(--cor-blocos-vagas);
     border-radius: 16px;
-    padding: 1.2em 15em 5em 1.2em;
+    padding: 1.2em 15em 1.2em 1em;
     font-size: 18px;
+    font-weight: 500;
+}
+
+.vagas__design__product__sub{
+    display: flex;
+    padding-top: 32px;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-fonte);
+}
+
+
+
+.vagas__design__UX__sub {
+    display: flex;
+    padding-top: 32px;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-fonte);
+}
+
+.texto__vagas {
+    font-size: 16px;
     font-weight: 500;
 }
